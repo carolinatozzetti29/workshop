@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop - Inscrição</title>
+    <style>
+        /* Reset básico para margens e preenchimentos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        main {
+            padding: 2rem 0;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .hero img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero h2 {
+            margin: 1rem 0;
+            color: #007BFF;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+        }
+
+        .section {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        button {
+            display: inline-block;
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 1rem;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .location-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .location-info img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .partners {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .partners img {
+            width: 100px;
+            height: auto;
+            margin: 1rem;
+        }
+
+        .testimonials {
+            background: #f9f9f9;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+
+        .testimonial {
+            margin-bottom: 1rem;
+        }
+
+        .testimonial p {
+            font-style: italic;
+        }
+
+        .faq {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+
+        .faq dt {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .faq dd {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .map-container {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 400px;
+            border: 0;
+            border-radius: 8px;
+        }
+
+        .contact-info {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Workshop de Desenvolvimento Web</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="hero">
+                <!-- Substitua o URL abaixo pela URL da imagem desejada -->
+                <img src="https://conteudo.imguol.com.br/c/entretenimento/b5/2024/03/13/taylor-swift-the-eras-tour-taylors-version-estreia-no-disney-nesta-quinta-feira-1710346056049_v2_900x506.png.webp" alt="Workshop">
+                <h2>Aprenda HTML e CSS</h2>
+                <p>Participe de um workshop interativo e pratique a construção de páginas web com HTML e CSS.</p>
+            </section>
+
+            <section class="section workshop-info">
+                <h2>Detalhes do Workshop</h2>
+                <p><strong>Título:</strong> Aprendendo HTML e CSS</p>
+                <p><strong>Descrição:</strong> Um workshop prático para aprender a construir páginas web utilizando HTML e CSS. Ideal para iniciantes.</p>
+                <p><strong>Data:</strong> 15 de Agosto de 2024</p>
+                <p><strong>Hora:</strong> 10:00 - 16:00</p>
+            </section>
+
+            <section class="section location-info">
+                <img src="http://www.iea.agricultura.sp.gov.br/out/imagens/mapa-edr.gif" alt="Localização">
+                <div>
+                    <h2>Localização</h2>
+                    <p>Centro de Convenções de São Paulo</p>
+                    <p>Rua das Flores, 123 - Jardim das Américas, São Paulo, SP</p>
+                    <p>CEP: 01234-567</p>
+                </div>
+            </section>
+
+            <section class="section map-container">
+                <h2>Encontre-nos Aqui</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.569457629486!2d-46.65015068575964!3d-23.561892684670697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce590df7d8f87%3A0x5b2de5c96c8b2d82!2sAv.%20Paulista%2C%20447%20-%20Cerqueira%C3%A7%C3%A1%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001301-000!5e0!3m2!1spt-BR!2sbr!4v1625756052476!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+
+            <section class="section schedule">
+                <h2>Horários</h2>
+                <ul>
+                    <li><strong>10:00 - 11:00:</strong> Introdução ao HTML</li>
+                    <li><strong>11:15 - 12:30:</strong> Estruturação de Páginas Web</li>
+                    <li><strong>12:30 - 13:30:</strong> Intervalo para Almoço</li>
+                    <li><strong>13:30 - 15:00:</strong> Estilização com CSS</li>
+                    <li><strong>15:15 - 16:00:</strong> Sessão de Perguntas e Respostas</li>
+                </ul>
+            </section>
+
+            <section class="section testimonials">
+                <h2>O que dizem nossos participantes</h2>
+                <div class="testimonial">
+                    <p>"O workshop foi incrível! Aprendi muito sobre HTML e CSS e já estou aplicando o conhecimento em meus projetos."</p>
+                    <p><strong>- Maria Silva</strong></p>
+
